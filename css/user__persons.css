@@ -1,0 +1,111 @@
+.information__user__persons{
+    z-index: 15;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0009;
+    top:0;
+}
+
+.card__information__user__persons{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 13px;
+}
+.header__card__information{
+    padding: .7em;
+    border-bottom: 1px solid #0003;
+    position: relative;
+}
+
+.header__card__information h5{
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+}   
+.header__card__information svg{
+    position: absolute;
+    top:calc(50% - 12px);
+    right: .6em;
+}
+
+.img__info__user{
+    width: 30px;
+    height: 30px;
+}
+.img__info__user img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #0003;
+}
+.profile__information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 1em;
+}
+.info__user__profile{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img__info__user{
+    margin-right: .8em;
+}
+.text__info__user h5{
+    font-size: .9em;
+    font-weight: 700;
+}
+.text__info__user p{
+    font-size: .8em;
+    color:#0008;
+}
+.button__style__cont__button__profile{
+    font-size: .8em;
+    font-weight: 600;
+    padding: .5em .7em;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #0003;
+    cursor: pointer;
+}
+.profile__information{
+    margin: 1em 0;
+}
+.main__card__information{
+    height: 357.8px;
+    overflow-y: scroll;
+}
+.main__card__information::-webkit-scrollbar{         
+    display: none;
+}
+
+.data__secound__info__styles:nth-child(3),.data__secound__info__styles:nth-child(2){
+    cursor: pointer;
+}
+
+.information__user__persons__none{
+    display: none;
+}
+
+.card__information__user__persons{
+    transform: scale(1.2);
+    opacity: 0;
+}
+.card__information__user__persons__animation{
+    animation: seeMenu .2s forwards cubic-bezier(.66,.52,.1,1.03);
+}
+
+@keyframes seeMenu{
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}

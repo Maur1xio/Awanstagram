@@ -1,0 +1,517 @@
+body{
+    background: #fafafa;
+}
+
+li > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    border-bottom: .1px solid #0002;
+}
+.cont__nav{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: .2em 2em;
+    
+}
+.logo__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo__nav img{
+    max-width: 120px;
+    min-width: 80px;
+    min-height: 50px;
+}
+
+
+.cont__img__profile{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border:.1px solid rgb(58, 58, 58);
+    overflow: hidden;
+}
+.cont__img__profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.accessibility__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__nav{
+    position: relative;
+    margin: 0 .5em;
+}
+.messsage__search__nav{
+    position: absolute;
+}
+.input__search__nav{
+    width: 200px;
+    padding: .4em 1em;
+    border: .1px solid #0002;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.034);
+}
+
+.center__placeholder::placeholder{
+    text-align: center;
+}
+
+.left__placeholder::placeholder{
+    text-align: left;
+}
+.accessibility__nav li{
+    margin: 0 .6em;
+}
+.button__action__menu__nav{
+    display: none;
+}
+
+.cont__main{
+    max-width: 950px;
+    margin: auto;
+}
+.img__data__user{
+    width: 170px;
+    height: 170px;
+}
+
+.img__data__user img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border:1px solid #0003 !important;
+    object-fit: cover;
+}
+.data__user__cont__main{
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__data__user__cont__main{
+    width: 79%;
+    margin-left: 5em;
+    display: flex;
+    flex-direction: column;
+}
+.info__data__user__cont__main div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .6em 0;
+}
+
+.first__info__data h2{
+    font-weight: 300;
+    font-size: 1.9em;
+}
+.edit__button__first__info__data{
+    cursor: pointer;
+    font-weight: 700;
+    padding: .4em .5em;
+    font-size: 14px; 
+    border-radius:5px ;
+    border: .1px solid #0002 ;
+    margin: 0 1.5em;
+}
+.edit__button__first__info__data a{
+    color:#000;
+}
+.config__profile__button__first__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+}
+
+.data__secound__info__styles{
+    margin-right:1.5em;
+}
+.data__secound__info__styles span{
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-right:.2em;
+
+}
+.third__info__data{
+    flex-direction: column;
+    align-items: flex-start !important;
+    max-height: 300px;
+}
+.third__info__data span{
+    font-weight: 600;
+
+}
+
+.third__info__data span{
+    font-weight: 600;
+
+}
+.description__user{
+    margin-top: .3em;
+}
+
+.secound__info__data, .third__info__data{
+    display: none;    
+}
+.info__data__user__cont__main{
+    width: auto;
+}
+.data__user__cont__main{
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+.data__user__cont__main > .secound__info__data, .data__user__cont__main > .third__info__data{
+    width: 100%;
+}
+.cont__items__publication{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 9em;
+    border-top: .1px solid #0002;
+}
+.item__publication{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 50px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.select__item__publication{
+    border-top: .1px solid #000;
+
+}
+
+.item__publication p{
+    font-size: .8em;
+    margin-left: .5em;
+}
+
+.links__user{
+    color:#0073f6;
+    margin-top: .5em;
+    font-weight: 500;
+}
+.info__photo__profile input{
+    font-size: .4em;
+}
+.name__user{
+    margin-bottom: .5em;
+}
+.description__user,.links__user{
+    font-size: .9em;
+}
+.info__data__user__cont__main .third__info__data{
+    max-width: 370px;
+}
+.data__user__cont__main {
+    align-items: flex-start;
+}
+ .header__card__information svg{
+    cursor: pointer;
+}
+.cont__publication__user{
+    /* min-height:390px; */
+    position: relative;
+}
+.cont__message__publication p{
+    font-size: 1.3em;
+    margin-top:1em;
+    font-weight: 400;
+}
+.cont__message__publication{
+    text-align: center;
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left:calc(50% - 125px);
+}
+.cont__message__publication label{
+    color:dodgerblue;
+    font-size:.9em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: .2em;
+}
+#publicationAdd{
+    display: none;
+}
+.cont__publication__user{
+    padding: .5em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.publication{
+    min-height: 18vw;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.publication img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.data__publication{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0006;
+    top:0;
+    left: 0;
+    
+}
+.my__data__publication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.info__data__publication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    color:#fff;
+    margin: 0 1em;
+}
+.info__data__publication p{
+    padding-bottom: .2em;
+    margin-left: .2em;
+}
+.publication:hover .data__publication{
+    display: inline-block;
+
+}
+.cont__everyone__publication__user label{
+    padding-left: .5em;
+    color:dodgerblue;
+    font-size:.9em;
+    font-weight: 700;
+    cursor: pointer;
+}
+.my__data__publication{
+    cursor: pointer;
+}
+@media screen and (max-width:1400px){
+    .publication{
+        min-height: 20vw;
+    }
+}
+@media screen and (max-width:1181px){
+    .publication{
+        min-height: 25vw;
+    }
+}
+@media screen and (max-width:960px){
+    .publication{
+        min-height: 30vw;
+    }
+}
+@media screen and (max-width:790px){
+    .info__data__publication{
+     
+        font-size: .9em;
+        margin: 0 .5em;
+    }
+    .cont__publication__user{
+        padding: 0;
+        display: grid;
+        gap: .2em;
+        grid-template-columns: repeat(3,1fr);
+    
+    }
+    .info__data__user__cont__main > .secound__info__data, .info__data__user__cont__main > .third__info__data{
+        display: none;
+    }
+ 
+    .data__user__cont__main {
+        padding: 0;
+        padding-top: 1em;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .img__data__user{
+        width: 77px;
+        height: 77px;
+    }
+    .img__data__user img{
+        width: 77px;
+        height: 77px;
+    }
+    .info__data__user__cont__main{
+        margin-left: 0;
+        flex-grow: 1;
+    }
+    .secound__info__data, .third__info__data{
+        display: block;    
+    }
+    .first__info__data{
+        flex-wrap: wrap;
+    }
+    .first__info__data h2{
+        order: 1;
+    }
+    .edit__button__first__info__data{
+        order: 3;
+        margin: 0;
+        width: 100%;
+        margin-top: .8em;
+        background: #fff;
+
+    }
+    .config__profile__button__first__info{
+        order: 2;
+        margin-left: 1.5em;
+        padding-top: 3px;
+    }
+    .first__info__data{
+        padding: 0;
+    }
+    .img__data__user{
+        padding:0 .2em;
+    }
+    .first__info__data{
+        width: 100%;
+    }
+
+    .first__info__data{
+        padding: 0 .5em !important;
+    }
+    .cont__main .third__info__data{
+        font-size: .9em;
+        padding: 1em .6em;
+    }
+    .cont__items__publication{
+        border: .1px solid #0002;
+    }
+    .secound__secound__info__data{
+        border-top:1px solid #0002; 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em 0;
+    }
+    .data__secound__info__styles{
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        font-size: .9em;
+    }
+    .item__publication > p{
+        display: none;
+    }
+
+    .item__publication svg{
+        width: 24px;
+        height: 24px;
+        fill:#000;
+    }
+    .select__item__publication {
+        border-top: none;
+
+    }
+    .select__item__publication svg{
+        fill:#0095f6;
+        
+    }
+    .cont__items__publication{
+        padding: 0;
+    }
+    .data__secound__info__styles{
+        color:rgba(0, 0, 0, 0.74);
+    }
+    .data__secound__info__styles span{
+       color:#000;
+    }
+}
+
+@media screen and (max-width:610px){
+
+    .accessibility__nav{
+        position: fixed;
+        flex-direction: column;
+        top:3em;
+        right: .8em;
+        transform-origin: top center;
+        transform: scale(1, 0);
+        transition:transform .1s cubic-bezier(.46,.46,.31,1.36);
+    }
+    .see__accessibility__nav{
+        transform: scale(1, 1);
+        transition:transform .2s cubic-bezier(.46,.46,.31,1.36);
+
+    }
+    .accessibility__nav li{
+        margin: .6em 0;
+        background: #fff;
+        border: none;
+        font-size: 1.4em;
+        padding: .3em .4em;
+        border-radius: 10px;
+        box-shadow: 0 0 8px .1px #0002;
+        cursor: pointer;
+        transition: box-shadow .2s cubic-bezier(.46,.46,.31,1.36);
+    }
+    .accessibility__nav li:hover{
+        box-shadow: 0 0 8px .1px #0004;
+
+    }
+    .button__action__menu__nav {
+        display: inline-block;
+        border: none;
+        background: transparent;
+        font-size: 1.4em;
+        padding: .2em .4em;
+        border-radius: 10px;
+        box-shadow: 0 0 8px .1px #0001;
+        cursor: pointer;
+        transition: box-shadow .2s;
+    }
+
+    .button__action__menu__nav:hover{
+        box-shadow: 0 0 8px .1px #0003;
+
+    }
+    .cont__nav{
+        padding: .2em 1em;
+    }
+    .input__search__nav{
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* img{
+    max-width: 100%;
+}
+ */
+ul{
+    list-style: none;
+}
+.invisible{
+    display: none !important;
+}
+.semi__invisible{
+    transform: scale(0);
+}
+.disabled__button{
+    opacity: .5;
+    cursor:auto !important;
+}

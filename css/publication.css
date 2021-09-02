@@ -1,0 +1,220 @@
+.publications{
+    border: 1px solid #0003;
+    border-radius: 3px;
+    margin: 1em 0;
+    overflow: hidden;
+}
+.header__publication{
+    background: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .8em 1em;
+}
+.info__user__header__publication{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.more__options__publication{
+    cursor: pointer;
+}
+.data__info__user__header__publication{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__user__header__publication img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-right: 1em;
+    border-radius: 50%;
+    border: 1px solid #0003;
+    cursor: pointer;
+}
+.info__user__header__publication h4{
+    font-size: .9em;
+    font-weight: 750;
+}
+.img__main__publication{
+    width: 100%;
+    height: 100%;
+}
+
+.everyone__comments > * {
+    font-size: .9em;
+
+}
+
+.like__publication{
+    margin-right: 1em;
+    cursor: pointer;
+}
+.comment__publication{
+    cursor: pointer;
+}
+
+.cont__num__likes span{
+    font-weight: 600;
+    font-size: 1.2em;
+
+}
+.text__user__main__comments{
+    margin: .6em 0;
+}
+.text__user__main__comments span{
+    font-weight: 700;
+}
+.cont__comments__main__comments .comment{
+    margin: .6em 0;
+}
+.cont__comments__main__comments .comment span a{
+    color:#0051ff;
+}
+.cont__comments__main__comments{
+    max-height: 100px;
+    overflow-y: scroll;
+}
+.cont__comments__main__comments::-webkit-scrollbar{
+    display: none;
+}
+.text__user__main__comments{
+    max-height: 55px;
+    overflow-y: scroll;
+
+}
+.text__user__main__comments::-webkit-scrollbar{
+    display: none;
+
+}
+.creatte__comment{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-top: 1px solid #0002;
+}
+.header__everyone__comments {
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+}
+.main__everyone__comments{
+    padding-top: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+}
+.creatte__comment textarea{
+    background: none;
+    width: 90%;
+    resize: none;
+    border: none;
+    font-size: 1em;
+}
+.creatte__comment textarea::-webkit-scrollbar{
+    display: none;
+}
+#sendComment{
+    border: none;
+    background: none;
+    font-size: 1em;
+    font-weight: 700;
+    color:#0095f6;
+    cursor: pointer;
+    margin-left: 1em;
+}
+.comment{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.like__comment{
+    margin-left: .2em;
+    cursor: pointer;
+}
+.info__comment{
+    width: 94%;
+}
+.num__likes__comment{
+    width: 100%;
+    margin-top: .2em;
+    font-size: .9em;
+    color: #0008;
+}
+.like__publication{
+    overflow: visible;
+    fill: red;
+}
+.like__publication__off{
+    fill: #262626;
+}
+
+.like__publication__on__animation{
+	 animation: jello-vertical-on .6s both;
+}
+
+.like__publication__off__animation{
+    animation: jello-vertical-off .6s both;
+}
+.like__comment{
+    fill: red;
+}
+.more__options__publication{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+@keyframes jello-vertical-on {
+    0% {
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+              transform: scale3d(1, 1, 1);
+    fill: red;
+    }
+}
+@keyframes jello-vertical-off {
+    0% {
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    40% {
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    50% {
+              transform: scale3d(0.85, 1.15, 1);
+    }
+    65% {
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    75% {
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    100% {
+              transform: scale3d(1, 1, 1);
+    fill: #262626;
+    }
+}

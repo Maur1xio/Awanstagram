@@ -1,0 +1,210 @@
+body{
+    padding-top: 57.38px;
+    padding-right: 18em;
+}
+
+.cont__main{
+    max-width: 614px;
+    margin: 2em auto;
+
+}
+
+.user__info{
+    position: fixed;
+    width: 293px;
+    top:14%;
+    right:310px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.my__user__info img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:  1px solid #0005;
+
+}
+.primary__user img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border:  1px solid #0005;
+    object-fit: cover;
+}
+.my__user__info{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.my__user__info .info__my__user__info{
+    margin-left: 1.5em;
+}
+.my__user__info .info__my__user__info p{
+    margin-top:.2em;
+    color:#0005;
+}
+.my__user__info .info__my__user__info{
+    font-size: .8em;
+}
+.info__my__user__info{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my__user__info button, a{
+    border: none;
+    background: none;
+    color:rgb(0, 132, 255);
+    cursor: pointer;
+}
+.suggestions__for__you{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .8em;
+    margin-top: 2em;
+    margin-bottom: .2em;
+}
+.suggestions__for__you{
+    padding-left: .2em;
+
+}
+.suggestions__for__you p{
+    color:#0008;
+}
+.suggestions__for__you a{
+    color:#000;
+}
+
+.content__users__info{
+    width: 100%;
+}
+.my__user__info{
+    margin-top: 1em;
+
+}
+.primary__user{
+    margin-top: 0;
+
+}
+
+.content__users__info p{
+    font-size: .9em;
+}
+
+
+
+
+/* followed__profiles ===> */
+.cont__followed__profiles{
+    position: relative;
+    width: 100%;    
+    height: 118px;
+    border: 1px solid #0003;
+    background: #fff;
+    border-radius: 5px;
+}
+.followed__profiles{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.profile__of__followed{
+    padding: 0 9.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile__of__followed img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1px #0003, 0 0 0 3px #fff, 0 0 0 4px #0003;
+}
+.profile__of__followed p{
+    color: #0007;
+    font-size: .7em;
+    margin-top: .8em;
+}
+
+.followed__profiles > p{
+    width: 100%;
+    text-align: center;
+    font-size: .8em;
+    color:#0008;
+}
+.following{
+    cursor: auto !important;
+    color:#000 !important;
+}
+.followed__profiles{
+    overflow-x: scroll;
+    padding-top: .4em;
+}
+.followed__profiles::-webkit-scrollbar{
+    height: 5px;
+}
+
+.followed__profiles::-webkit-scrollbar-thumb{
+    background: #000;
+    border-radius: 5px;
+}
+
+/* <=== followed__profiles */
+
+
+.my__user__info .data__info__my__user__info{
+    color: #000;
+}
+/* Publication ============>*/
+
+  
+/* <============ Publication*/
+
+
+@media screen and (max-width:1400px){
+    .user__info{
+        right:150px;
+    }
+
+}
+@media screen and (max-width:1245px){
+    .user__info{
+        right:100px;
+    }
+
+}
+@media screen and (max-width:1141px){
+    .user__info{
+        right:40px;
+    }
+
+}
+
+@media screen and (max-width:1028px){
+    .user__info{
+        right:30px;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .user__info{
+       display: none;
+    }
+    body{
+        padding-right: 0em;
+    }
+
+}

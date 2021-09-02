@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="profile__name" >Mi perfil</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/publication.css">
+    <link rel="stylesheet" href="../css/publication__info.css">
+    <link rel="stylesheet" href="../css/user__persons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7ecd69d629.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <nav class="nav fixed">
+
+        <div class="cont__nav">
+            
+            <div class="logo__nav">
+                <a href="../views/home.html">
+                
+                    <img src="https://www.webtus.net/wp-content/uploads/2016/06/insta.png" alt="">
+
+                </a>
+            </div>
+
+
+            <div class="search__nav">
+                <input class="input__search__nav center__placeholder" type="text" placeholder="Buscar">
+
+                <div class="cont__search__results invisible">
+                    
+                    <div class="search__results">
+
+                        <a class="profile__answer" href="../views/profile.html" data-id="3">
+
+                            <div class="cont__user__data">
+
+                                <img src="../images/profile.PNG" alt="">
+                                <div class="info__user__data">
+
+                                    <h4>awadeLATAM</h4>
+                                    <p>Mauricio Elera</p>
+
+                                </div>
+
+                            </div>
+
+                        </a>
+                       
+
+                    </div>
+                
+
+                </div>
+                
+            </div>
+
+
+            <ul class="accessibility__nav">
+                <li>  
+                    <a href="../views/home.html">
+                        <svg aria-label="Inicio" class="_8-yf5 " fill="#262626" height="22" role="img" viewBox="0 0 48 48" width="22"><path d="M45.3 48H30c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2-4.6-4.6-4.6s-4.6 2-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5c-.8 0-1.5-.7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.5-.6 2.1 0l21.5 21.5c.4.4.6 1.1.3 1.6 0 .1-.1.1-.1.2v22.8c.1.8-.6 1.5-1.4 1.5zm-13.8-3h12.3V23.4L24 3.6l-20 20V45h12.3V34.2c0-4.3 3.3-7.6 7.6-7.6s7.6 3.3 7.6 7.6V45z"><path></path>
+                        </svg>
+                    </a> 
+                </li>
+                <li>  
+                    <a href="#">
+                        <svg aria-label="Messenger" class="_8-yf5 " fill="#262626" height="22" role="img" viewBox="0 0 48 48" width="22"><path d="M36.2 16.7L29 22.2c-.5.4-1.2.4-1.7 0l-5.4-4c-1.6-1.2-3.9-.8-5 .9l-6.8 10.7c-.7 1 .6 2.2 1.6 1.5l7.3-5.5c.5-.4 1.2-.4 1.7 0l5.4 4c1.6 1.2 3.9.8 5-.9l6.8-10.7c.6-1.1-.7-2.2-1.7-1.5zM24 1C11 1 1 10.5 1 23.3 1 30 3.7 35.8 8.2 39.8c.4.3.6.8.6 1.3l.2 4.1c0 1 .9 1.8 1.8 1.8.2 0 .5 0 .7-.2l4.6-2c.2-.1.5-.2.7-.2.2 0 .3 0 .5.1 2.1.6 4.3.9 6.7.9 13 0 23-9.5 23-22.3S37 1 24 1zm0 41.6c-2 0-4-.3-5.9-.8-.4-.1-.8-.2-1.3-.2-.7 0-1.3.1-2 .4l-3 1.3V41c0-1.3-.6-2.5-1.6-3.4C6.2 34 4 28.9 4 23.3 4 12.3 12.6 4 24 4s20 8.3 20 19.3-8.6 19.3-20 19.3z"></path></svg>
+                    </a> 
+
+                </li>
+                <li class="cont__exit__account">  
+                    <a href="#">
+                        <svg aria-label="Buscar personas" class="_8-yf5 " fill="#262626" height="22" role="img" viewBox="0 0 48 48" width="22"><path clip-rule="evenodd" d="M24 0C10.8 0 0 10.8 0 24s10.8 24 24 24 24-10.8 24-24S37.2 0 24 0zm0 45C12.4 45 3 35.6 3 24S12.4 3 24 3s21 9.4 21 21-9.4 21-21 21zm10.2-33.2l-14.8 7c-.3.1-.6.4-.7.7l-7 14.8c-.3.6-.2 1.3.3 1.7.3.3.7.4 1.1.4.2 0 .4 0 .6-.1l14.8-7c.3-.1.6-.4.7-.7l7-14.8c.3-.6.2-1.3-.3-1.7-.4-.5-1.1-.6-1.7-.3zm-7.4 15l-5.5-5.5 10.5-5-5 10.5z" fill-rule="evenodd"></path></svg>
+                    </a> 
+                    <div class="exit__account">
+
+                        <a href="../html/index.html">Cerrar Sesión</a>
+
+                    </div>
+
+                </li>
+                <li>  
+                    <a href="#">
+                        <svg aria-label="Sección de actividad" class="_8-yf5 " fill="#262626" height="22" role="img" viewBox="0 0 48 48" width="22"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                    </a> 
+                </li>
+                <li>  
+                    <a href="../views/profile.html">
+                        <div class="cont__img__profile">
+                            <img src="../images/profile.PNG" alt="">
+                        </div>
+                    </a> 
+                </li>
+               
+            </ul>
+
+            <button class="button__action__menu__nav"><i class="fas fa-bars"></i></button>
+
+        </div>
+
+    </nav>
+
+
+    <main class="main">
+
+        <div class="cont__main">
+
+            <section class="data__user__cont__main">
+
+                <div class="img__data__user">
+                    <img src="../images/profile.png" alt="">
+                </div>
+
+                <div class="info__data__user__cont__main">
+
+                    <div class="first__info__data">
+
+                        <h2 class="userName">awadelatam</h2>
+                        <button class="edit__button__first__info__data" data-id="1"><a href="./editProfile.html">Editar perfil</a></button>
+                        <!-- <button class="config__profile__button__first__info">
+
+                            <svg aria-label="Opciones" class="_8-yf5 " fill="#262626" height="24" role="img" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M46.7 20.6l-2.1-1.1c-.4-.2-.7-.5-.8-1-.5-1.6-1.1-3.2-1.9-4.7-.2-.4-.3-.8-.1-1.2l.8-2.3c.2-.5 0-1.1-.4-1.5l-2.9-2.9c-.4-.4-1-.5-1.5-.4l-2.3.8c-.4.1-.8.1-1.2-.1-1.4-.8-3-1.5-4.6-1.9-.4-.1-.8-.4-1-.8l-1.1-2.2c-.3-.5-.8-.8-1.3-.8h-4.1c-.6 0-1.1.3-1.3.8l-1.1 2.2c-.2.4-.5.7-1 .8-1.6.5-3.2 1.1-4.6 1.9-.4.2-.8.3-1.2.1l-2.3-.8c-.5-.2-1.1 0-1.5.4L5.9 8.8c-.4.4-.5 1-.4 1.5l.8 2.3c.1.4.1.8-.1 1.2-.8 1.5-1.5 3-1.9 4.7-.1.4-.4.8-.8 1l-2.1 1.1c-.5.3-.8.8-.8 1.3V26c0 .6.3 1.1.8 1.3l2.1 1.1c.4.2.7.5.8 1 .5 1.6 1.1 3.2 1.9 4.7.2.4.3.8.1 1.2l-.8 2.3c-.2.5 0 1.1.4 1.5L8.8 42c.4.4 1 .5 1.5.4l2.3-.8c.4-.1.8-.1 1.2.1 1.4.8 3 1.5 4.6 1.9.4.1.8.4 1 .8l1.1 2.2c.3.5.8.8 1.3.8h4.1c.6 0 1.1-.3 1.3-.8l1.1-2.2c.2-.4.5-.7 1-.8 1.6-.5 3.2-1.1 4.6-1.9.4-.2.8-.3 1.2-.1l2.3.8c.5.2 1.1 0 1.5-.4l2.9-2.9c.4-.4.5-1 .4-1.5l-.8-2.3c-.1-.4-.1-.8.1-1.2.8-1.5 1.5-3 1.9-4.7.1-.4.4-.8.8-1l2.1-1.1c.5-.3.8-.8.8-1.3v-4.1c.4-.5.1-1.1-.4-1.3zM24 41.5c-9.7 0-17.5-7.8-17.5-17.5S14.3 6.5 24 6.5 41.5 14.3 41.5 24 33.7 41.5 24 41.5z" fill-rule="evenodd"></path></svg>
+
+                        </button> -->
+
+
+                    </div>
+
+                    
+                    <div class="secound__info__data">
+                        <p class="data__secound__info__styles"> <span class="publications__for__user">0</span>publicaciónes</p>
+                        <p class="data__secound__info__styles"> <span class="followers__for__user">0</span>seguidores</p>
+                        <p class="data__secound__info__styles"> <span class="followed__for__user">0</span>seguidos</p>
+                    </div>
+
+                    <div class="third__info__data">
+                        <span class="name__user">Mauricio Elera</span>
+                        <p class="description__user"></p>
+                        <a class="links__user" href="#" target="_BLANK"></a>
+
+                    </div>
+
+
+                </div>
+
+                <div class="third__info__data">
+                    <span class="name__user">Mauricio Elera</span>
+                    <p class="description__user"></p>
+                    <a class="links__user"  href="#" target="_BLANK"></a>
+                </div>
+                <div class="secound__info__data secound__secound__info__data">
+
+                    <p class="data__secound__info__styles"> 
+                        <span class="publications__for__user">0</span>
+                       publicaciónes
+                    </p>
+                    <p class="data__secound__info__styles"> <span class="followers__for__user">0</span>seguidores</p>
+                    <p class="data__secound__info__styles"> <span class="followed__for__user">0</span>seguidos</p>
+                </div>
+    
+                
+            </section>
+
+
+            <section class="publication__user__cont__main">
+                
+                <ul class="cont__items__publication">
+
+                    <li class="item__publication publications__min__page select__item__publication">
+                       <svg aria-label="" class="_8-yf5 " fill="#262626" height="12" role="img" viewBox="0 0 48 48" width="12"><path clip-rule="evenodd" d="M45 1.5H3c-.8 0-1.5.7-1.5 1.5v42c0 .8.7 1.5 1.5 1.5h42c.8 0 1.5-.7 1.5-1.5V3c0-.8-.7-1.5-1.5-1.5zm-40.5 3h11v11h-11v-11zm0 14h11v11h-11v-11zm11 25h-11v-11h11v11zm14 0h-11v-11h11v11zm0-14h-11v-11h11v11zm0-14h-11v-11h11v11zm14 28h-11v-11h11v11zm0-14h-11v-11h11v11zm0-14h-11v-11h11v11z" fill-rule="evenodd"></path></svg>
+                        <p>PUBLICACIONES</p>
+                    </li>
+
+                    <li class="item__publication videos__min__page">
+                        <svg aria-label="" class="_8-yf5 " fill="#8e8e8e" height="12" role="img" viewBox="0 0 48 48" width="12"><path d="M41 10c-2.2-2.1-4.8-3.5-10.4-3.5h-3.3L30.5 3c.6-.6.5-1.6-.1-2.1-.6-.6-1.6-.5-2.1.1L24 5.6 19.7 1c-.6-.6-1.5-.6-2.1-.1-.6.6-.7 1.5-.1 2.1l3.2 3.5h-3.3C11.8 6.5 9.2 7.9 7 10c-2.1 2.2-3.5 4.8-3.5 10.4v13.1c0 5.7 1.4 8.3 3.5 10.5 2.2 2.1 4.8 3.5 10.4 3.5h13.1c5.7 0 8.3-1.4 10.5-3.5 2.1-2.2 3.5-4.8 3.5-10.4V20.5c0-5.7-1.4-8.3-3.5-10.5zm.5 23.6c0 5.2-1.3 7-2.6 8.3-1.4 1.3-3.2 2.6-8.4 2.6H17.4c-5.2 0-7-1.3-8.3-2.6-1.3-1.4-2.6-3.2-2.6-8.4v-13c0-5.2 1.3-7 2.6-8.3 1.4-1.3 3.2-2.6 8.4-2.6h13.1c5.2 0 7 1.3 8.3 2.6 1.3 1.4 2.6 3.2 2.6 8.4v13zM34.6 25l-9.1 2.8v-3.7c0-.5-.2-.9-.6-1.2-.4-.3-.9-.4-1.3-.2l-11.1 3.4c-.8.2-1.2 1.1-1 1.9.2.8 1.1 1.2 1.9 1l9.1-2.8v3.7c0 .5.2.9.6 1.2.3.2.6.3.9.3.1 0 .3 0 .4-.1l11.1-3.4c.8-.2 1.2-1.1 1-1.9s-1.1-1.2-1.9-1z"></path></svg>
+                        <p>IGTV</p>
+                    </li>
+
+                    <li class="item__publication save__min__page">
+                        <svg aria-label="" class="_8-yf5 " fill="#8e8e8e" height="12" role="img" viewBox="0 0 48 48" width="12"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+
+                        <p>GUARDADAS</p>
+                    </li>
+
+                    <li class="item__publication labels__min__page">
+                        <svg aria-label="" class="_8-yf5 " fill="#262626" height="12" role="img" viewBox="0 0 48 48" width="12"><path clip-rule="evenodd" d="M45 1.5H3c-.8 0-1.5.7-1.5 1.5v42c0 .8.7 1.5 1.5 1.5h42c.8 0 1.5-.7 1.5-1.5V3c0-.8-.7-1.5-1.5-1.5zm-40.5 3h11v11h-11v-11zm0 14h11v11h-11v-11zm11 25h-11v-11h11v11zm14 0h-11v-11h11v11zm0-14h-11v-11h11v11zm0-14h-11v-11h11v11zm14 28h-11v-11h11v11zm0-14h-11v-11h11v11zm0-14h-11v-11h11v11z" fill-rule="evenodd"></path></svg>
+                        <p>ETIQUETADAS</p>
+                    </li>
+
+                </ul>
+
+            </section>
+
+
+            <section class="cont__everyone__publication__user">
+                <form class="cont__new__publication">
+                 <!--    -->
+                </form>
+                <article class="cont__publication__user">
+           
+                  <!--   <div class="publication">
+                        <img src="https://e.rpp-noticias.io/normal/2017/12/06/123112_532948.jpg" alt="">
+                        <div class="data__publication">
+
+                                <div class="my__data__publication">
+
+                                    <div class="likes__publication info__data__publication">
+                                        <i class="fas fa-heart"></i>
+                                        <p>25</p>
+                                    </div>
+                                    <div class="comments__publication info__data__publication">
+                                        <i class="fas fa-comment"></i>
+                                        <p>14</p>
+                                    </div>
+
+                                </div>
+
+                        </div>
+                </div> -->
+
+                </article>
+               
+                
+          
+
+
+                <div class="cont__message__publication">
+                    
+                   
+                </div>
+
+            </section>
+            
+            
+
+        </div>
+
+    </main>
+
+
+    <div class="information__user__persons information__user__persons__none">
+
+        <div class="card__information__user__persons">
+
+            <header class="header__card__information">
+
+                <h5>Siguiendo</h5>
+                <svg aria-label="Cerrar" class="_8-yf5 " fill="#262626" height="24" role="img" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M41.1 9.1l-15 15L41 39c.6.6.6 1.5 0 2.1s-1.5.6-2.1 0L24 26.1l-14.9 15c-.6.6-1.5.6-2.1 0-.6-.6-.6-1.5 0-2.1l14.9-15-15-15c-.6-.6-.6-1.5 0-2.1s1.5-.6 2.1 0l15 15 15-15c.6-.6 1.5-.6 2.1 0 .6.6.6 1.6 0 2.2z" fill-rule="evenodd"></path></svg>
+
+            </header>
+
+            <main class="main__card__information">
+
+               
+                <!-- <div class="profile__information">
+
+                    <div class="info__user__profile">
+                        <div class="img__info__user">
+                            <img src="../images/profile.PNG" alt="">
+                        </div>
+                        <div class="text__info__user">
+                            <h5>awadelatam</h5>
+                            <p>Mauricio Elera</p>
+                        </div>
+                    </div>
+
+
+                    <button class="button__style__cont__button__profile">Siguiendo</button>
+
+                </div> -->
+
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <div class="cont__publication__info invisible">
+
+        <svg aria-label="Cerrar" class="_8-yf5 close__publication__info" fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24"><path clip-rule="evenodd" d="M41.8 9.8L27.5 24l14.2 14.2c.6.6.6 1.5 0 2.1l-1.4 1.4c-.6.6-1.5.6-2.1 0L24 27.5 9.8 41.8c-.6.6-1.5.6-2.1 0l-1.4-1.4c-.6-.6-.6-1.5 0-2.1L20.5 24 6.2 9.8c-.6-.6-.6-1.5 0-2.1l1.4-1.4c.6-.6 1.5-.6 2.1 0L24 20.5 38.3 6.2c.6-.6 1.5-.6 2.1 0l1.4 1.4c.6.6.6 1.6 0 2.2z" fill-rule="evenodd"></path></svg>
+
+        <div class="cont__data__publication cont__publications">
+
+       
+
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script src="../js/user/profile.js" type="module"></script>
+   <script src="../js/utils/nav.js" type="module"></script>
+   <script src="../js/user/publication.js" type="module"></script>
+
+   
+</body>
+</html>

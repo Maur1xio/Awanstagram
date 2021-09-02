@@ -1,0 +1,278 @@
+body{
+    background: #fafafa;
+}
+
+li > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    border-bottom: .1px solid #0002;
+}
+.cont__nav{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: .2em 2em;
+    
+}
+.logo__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo__nav img{
+    max-width: 120px;
+    min-width: 80px;
+    min-height: 50px;
+}
+
+
+.cont__img__profile{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border:.1px solid #0003;
+    overflow: hidden;
+}
+.cont__img__profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.accessibility__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__nav{
+    position: relative;
+    margin: 0 .5em;
+}
+.messsage__search__nav{
+    position: absolute;
+}
+.input__search__nav{
+    width: 200px;
+    padding: .4em 1em;
+    border: .1px solid #0002;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.034);
+}
+
+.center__placeholder::placeholder{
+    text-align: center;
+}
+
+.left__placeholder::placeholder{
+    text-align: left;
+}
+.accessibility__nav li{
+    margin: 0 .6em;
+}
+.button__action__menu__nav{
+    display: none;
+}
+.styles__action__edit{
+    padding:1.2em  1.5em;
+    margin-left: -1px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.main__info{
+    max-width: 935px;
+    margin: 2em auto;
+    border: 1px solid #0002;
+    border-radius: 3px;
+    display: grid;
+    grid-template: 
+    "change input"/
+        .3fr  1fr;
+}
+.select__action__edit{
+    font-weight: 550;
+    border-left: 2px solid #000;
+}
+.whit__hover:hover{
+    border-left: 2px solid #0002;
+
+}
+.inputs__send__edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cont__send__edit{
+    border-left: 1px solid #0002;
+    padding: 1em;
+
+}
+.padding__automatic{
+    padding-top: .4em;
+}
+.settings__flex{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: .8em;
+}
+.settings__flex div:nth-child(2){
+    margin-left: 2em;
+    max-width: 380px;
+}
+.settings__flex div:nth-child(1){
+    max-width: 62px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.cont__photo__profile img{
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #0003;
+
+}
+.info__photo__profile h3{
+   font-weight: 500;
+}
+.info__photo__profile  label{
+    background: transparent;
+    border:none;
+    color:rgb(0, 137, 216);
+    font-weight: 700;
+    font-size: .9em;
+    cursor: pointer;
+}
+.margin__automatic{
+    margin: .5em 0;
+}
+.input__styles__data p{
+    font-size: .7em;
+    color:#0009;
+}
+.input__styles__data p a{
+    font-weight: 600;
+    color:rgb(0, 137, 216);
+}
+.my__input__styles{
+    min-width: 100%;
+    font-size: 1em;
+    font-weight: 550;
+    padding: .3em;
+    border: 1px solid #0002;
+    border-radius: 3px;
+}
+.styles__submit__button{
+    cursor: pointer;
+    margin: auto;
+    padding: .4em .8em;
+    border: none;
+    border-radius: 2px;
+    background:rgb(0, 120, 189) ;
+    color:#fff;
+    font-weight: 700;
+}
+.photo__profile__inputs__send{
+    padding-left:1.5em;
+
+}
+.inputs__send__edit{
+    padding-left: 4em;
+}
+
+.margin__right{
+    margin-right: 1.5em;
+}
+
+.new__my__input__styles{
+    padding: .6em;
+    border-radius: 8px;
+}
+
+
+
+#getImg{
+    display:none;
+}
+
+@media screen and (max-width:610px){
+
+    .accessibility__nav{
+        position: fixed;
+        flex-direction: column;
+        top:3em;
+        right: .8em;
+        transform-origin: top center;
+        transform: scale(1, 0);
+        transition:transform .1s cubic-bezier(.46,.46,.31,1.36);
+    }
+    .see__accessibility__nav{
+        transform: scale(1, 1);
+        transition:transform .2s cubic-bezier(.46,.46,.31,1.36);
+
+    }
+    .accessibility__nav li{
+        margin: .6em 0;
+        background: #fff;
+        border: none;
+        font-size: 1.4em;
+        padding: .3em .4em;
+        border-radius: 10px;
+        box-shadow: 0 0 8px .1px #0002;
+        cursor: pointer;
+        transition: box-shadow .2s cubic-bezier(.46,.46,.31,1.36);
+    }
+    .accessibility__nav li:hover{
+        box-shadow: 0 0 8px .1px #0004;
+
+    }
+    .button__action__menu__nav {
+        display: inline-block;
+        border: none;
+        background: transparent;
+        font-size: 1.4em;
+        padding: .2em .4em;
+        border-radius: 10px;
+        box-shadow: 0 0 8px .1px #0001;
+        cursor: pointer;
+        transition: box-shadow .2s;
+    }
+
+    .button__action__menu__nav:hover{
+        box-shadow: 0 0 8px .1px #0003;
+
+    }
+    .cont__nav{
+        padding: .2em 1em;
+    }
+    .input__search__nav{
+        width: 100%;
+    }
+
+    .change__edit__fuction{
+        display: none;
+    }
+    .main__info{
+
+        grid-template: 
+        "input" 1fr;
+    }
+    .inputs__send__edit{
+        padding-left: 0;
+    }
+   
+
+}

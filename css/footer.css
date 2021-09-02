@@ -1,0 +1,20 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+   background: #383838;
+   width: 100%;
+   color:#fff;
+   padding: 1em;
+   font-size: .9em;
+   font-weight: 500;
+   transform-origin: bottom center;
+   transform: scale(1,0);
+   transition:transform .1s ;
+}
+
+.see__footer{
+   transform: scale(1,1);
+   transition:transform .2s ;
+
+}

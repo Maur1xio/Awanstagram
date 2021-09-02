@@ -1,0 +1,217 @@
+
+body{
+    background: #fafafa;
+}
+input{
+    width: 85%;
+    border: none;
+    background: none;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 2em;
+}
+
+.sesion__facebook img{
+    width: 20px;
+}
+.logo__ig{
+    width: 200px;
+    margin-top: 1.8em;
+}
+.register__main{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont__log__in__register__main{
+    text-align: center;
+}
+.cont__log__in__register__main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 1px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+}
+.log__in__register__main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.2em;
+}
+.input__style{
+    width: 100%;
+    padding: .6em .5em ;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    background: rgb(232, 240, 254);
+    margin: .2em 0;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.button__style{
+    width: 100%;
+    padding: .5em 1em;
+    margin-top: .8em;
+    border:none;
+    background: #0095f6;
+    color:#fff;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opacity{
+    opacity: .5;
+    cursor: auto;
+}
+
+.cont__line__log__in{
+    width: 100%;
+    padding: 0 2.2em;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: .2em 0 1em 0;
+}
+.line{
+    height: 1px;
+    width: 42%;
+    background:rgba(128, 128, 128, 0.377) ;
+}
+.information__login{
+    font-size: .8em;
+    color:rgba(92, 92, 92, 0.616);
+    margin-top: 1.5em;
+}
+.o__cont__line{
+    width: 10%;
+    text-align: center;
+    font-size: .8em;
+    color:rgb(92, 92, 92);
+    line-height: 16px;
+
+}
+
+.sesion__facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sesion__facebook p{
+    color:#2c469b;
+    margin-left: .4em;
+}
+
+.not__remember__pass{
+    color: #00376b;
+    font-size: .8em;
+    text-align: center;
+    margin: 1em 0 1.5em 0;
+}
+
+.creatte__account__register__main{
+    background: red;
+    width: 100%;
+    text-align: center;
+    font-size: .8em;
+    background: #fff;
+    border-radius: 1px;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    padding: 1.5em 1em;
+    margin-top:.8em;
+}
+.creatte__account__register__main a{
+    color:#0095f6;
+    font-weight: 700;
+}
+
+.p__get__app{
+    margin: 1.5em;
+    font-size: .9em;
+}
+.get__app__register__main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.get__app__register__main a:nth-child(1){
+    margin-right: .4em;
+}
+.get__app__register__main a img{
+    max-height: 40px;
+}
+
+.footer{
+    margin: 3em auto;
+    max-width: 750px;
+    font-size: .8em;
+    color:rgb(95, 95, 95);
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer p{
+    text-align: center;
+    margin: .5em .8em;
+
+}
+.cont__log__in__register__main{
+    padding-bottom: 2.6em;
+}
+.message__register{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 1.1em;
+    padding: 0em 2.2em;
+    font-weight: 600;
+    line-height: 20px;
+    color: #262626a1;
+    margin: .1em 0 1em 0;
+}
+.fa-check-circle{
+    font-size: 1.5em;
+    color:rgb(60, 170, 60);
+    font-weight: 100;
+}
+.fa-exclamation-circle{
+    font-size: 1.5em;
+    color:#f04655;
+
+}
+
+.cont__icon i{
+    width: 100%;
+}
+@media screen and (max-width:450px){
+   .main{
+       padding: 0;
+   }
+   .register__main{
+       width: 100%;
+   }
+   .creatte__account__register__main, .cont__log__in__register__main{
+       border: none;
+   }
+}
