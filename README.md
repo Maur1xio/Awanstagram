@@ -6,6 +6,6 @@ Es básicamente igual a instagram, pero...
 ```
 Sin chat.
 Sin historias.
-Sin una excelente optiminzación.
+Sin una excelente optimización.
 Sin seguridad. (literalmente todos los datos están en el localStorage)
 ```
